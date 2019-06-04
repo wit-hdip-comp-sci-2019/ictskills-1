@@ -1,0 +1,437 @@
+
+
+
+  {
+  
+  
+    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ict-skills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600"},
+  
+  "type" : "course",
+  "title" : " ICT Skills 1 ",
+  "img" : "",
+  "videoid" : "",
+  "objectives" : "<p>javascript · node · express · git · github · glitch</p>",
+  "folder" : "ict-skills-1",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "topics" : [  {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "0: Overview ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Overview of the module + introduction to the Glitch platform</p>",
+  "folder" : "topic-00-module-overview",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Module Overview ",
+  "img" : "talk-1-overview/review.png",
+  "videoid" : "",
+  "objectives" : "<p>Module Overview</p>",
+  "folder" : "unit-0",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ict-skills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600"},
+  
+  "type" : "talk",
+  "title" : "Module Overview ",
+  "img" : "review.png",
+  "videoid" : "TF4NE90hRoo",
+  "objectives" : "<p>Overview of the modules topics</p>",
+  "folder" : "talk-1-overview",
+  "link" : "review.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Introducing Glitch ",
+  "img" : "talk-a-glitch-intro/glitch.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-1",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Introducing Glitch ",
+  "img" : "glitch.png",
+  "videoid" : "SHSs4vzk05U",
+  "objectives" : "<p>What is is, what role it plays, why was it built.</p>",
+  "folder" : "talk-a-glitch-intro",
+  "link" : "glitch.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Glitch Tour ",
+  "img" : "glitch-tour.png",
+  "videoid" : "h76FPkIO2HU",
+  "objectives" : "<p>A look at at the components of a glitch project. Also types of project will we build?</p>",
+  "folder" : "talk-b-glitch-tour",
+  "link" : "glitch-tour.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-1 Glitch Intro",
+  "img" : "img/main.png",
+  "videoid" : "DZrMAjxNxOY",
+  "objectives" : "<p>Create, modify and view your first Glitch project.</p>",
+  "folder" : "book-a-glitch-intro",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "panelvideo",
+  "title" : "00: Overview ",
+  "img" : "",
+  "videoid" : "-wLpQfNMy3s",
+  "objectives" : "<p>00: Overview</p>",
+  "folder" : "panelvideo",
+  "link" : "-wLpQfNMy3s",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "1: Introducing Javascript ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>An introduction to the very basics of the Javascript Language</p>",
+  "folder" : "topic-01-js-intro",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Introducing Javascript ",
+  "img" : "talk-c-js-background/js-background.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-1",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "JS Introduction ",
+  "img" : "js-background.png",
+  "videoid" : "FpTU2DSagwE",
+  "objectives" : "<p>Place javascript in its proper context, and explore its relationship to the browser.</p>",
+  "folder" : "talk-c-js-background",
+  "link" : "js-background.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Variables & Logic ",
+  "img" : "js-variables.jpg",
+  "videoid" : "nQg97wMuviE",
+  "objectives" : "<p>Explore the javascript variables, including the basic types, conversion and usage</p>",
+  "folder" : "talk-d-js-varialbes-boolean",
+  "link" : "js-variables.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Const, Let & Objects ",
+  "img" : "js-variables-&-objects.png",
+  "videoid" : "ux6LSDfZ3EA",
+  "objectives" : "<p>Using const &amp; let. Declaring and using objects.</p>",
+  "folder" : "talk-e-js-variables-&-objects",
+  "link" : "js-variables-&-objects.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-2 JS Intro",
+  "img" : "img/main.jpg",
+  "videoid" : "Hr6jefN0f0c",
+  "objectives" : "<p>Background &amp; Tools, Variables &amp; Boolean Logic</p>",
+  "folder" : "book-b-js-introduction",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "panelvideo",
+  "title" : "01: Javascript Introduction ",
+  "img" : "",
+  "videoid" : "KtlSKs5J8EQ",
+  "objectives" : "<p>01: Javascript Introduction</p>",
+  "folder" : "panelvideo",
+  "link" : "KtlSKs5J8EQ",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "2: Javascript Arrays ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Exploring Javascript arrays in detail</p>",
+  "folder" : "topic-02-arrays",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Javascript Variables, Objects & Methods ",
+  "img" : "talk-e-variables-&-objects/variables-&-objects-review.png",
+  "videoid" : "",
+  "objectives" : "<p>Javascript Variables, Objects &amp; Methods</p>",
+  "folder" : "unit-0",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Variables & Objects Review ",
+  "img" : "variables-&-objects-review.png",
+  "videoid" : "lyaw5a_Ckls",
+  "objectives" : "<p>A concise tour of the structure of variables &amp; objects in Javascript</p>",
+  "folder" : "talk-e-variables-&-objects",
+  "link" : "variables-&-objects-review.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Methods & Arrays Review ",
+  "img" : "methods-&-arrays.png",
+  "videoid" : "UWsq4PH32eE",
+  "objectives" : "<p>A concise look at methods &amp; Arrays</p>",
+  "folder" : "talk-f-methods-&-arrays",
+  "link" : "methods-&-arrays.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Javascript Arrays ",
+  "img" : "talk-a-arrays-basics/arrays-basics.png",
+  "videoid" : "",
+  "objectives" : "<p>Javascript Arrays</p>",
+  "folder" : "unit-1",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Arrays: Basics ",
+  "img" : "arrays-basics.png",
+  "videoid" : "uUE9oMSh_qU",
+  "objectives" : "<p>Creating, accessing, adding to and removing from arrays.</p>",
+  "folder" : "talk-a-arrays-basics",
+  "link" : "arrays-basics.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Array Methods ",
+  "img" : "array-methods.png",
+  "videoid" : "yYPmBd3ABYk",
+  "objectives" : "<p>Exploring length, slice, concat, join, indexOf, lastIndexOf</p>",
+  "folder" : "talk-b-array-methods",
+  "link" : "array-methods.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Array Iteration ",
+  "img" : "array-iteration.jpeg",
+  "videoid" : "0stQce74AJw",
+  "objectives" : "<p>Using for, while and do-while to iterate over an array</p>",
+  "folder" : "talk-c-array-iteration",
+  "link" : "array-iteration.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Arrays of Objects ",
+  "img" : "arrays-of-objects.png",
+  "videoid" : "yXrGZzbTbkQ",
+  "objectives" : "<p>Arrays of more complex data structures, including nested objects.</p>",
+  "folder" : "talk-d-arrays-of-objects",
+  "link" : "arrays-of-objects.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-3 JS Arrays",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Array Basics, Array Methods &amp; Iteration</p>",
+  "folder" : "book-a-js-arrays",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "panelvideo",
+  "title" : "02: Javascript Arrays ",
+  "img" : "",
+  "videoid" : "doTi4_51VR8",
+  "objectives" : "<p>02: Javascript Arrays</p>",
+  "folder" : "panelvideo",
+  "link" : "doTi4_51VR8",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  }
+ ]
+  }
+

@@ -1,0 +1,59 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-1 Glitch Intro",
+  "img" : "img/main.png",
+  "videoid" : "DZrMAjxNxOY",
+  "objectives" : "<p>Create, modify and view your first Glitch project.</p>",
+  "folder" : "book-a-glitch-intro",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "# Objectives",
+    "shortTitle": "Lab-1 Glitch Intro",
+    "contentMd" : "# Objectives\n\nCreate, modify and view your first Glitch project.\n"
+    },
+  
+    {
+    "title": "# Gomix Setup",
+    "shortTitle": "01",
+    "contentMd" : "# Gomix Setup\n\nIf you do not have a github account, create one now:\n\n- <https://github.com>\n\nNow sign up for the gomix service:\n\n- <https://glitch.com>\n\nIf you sign in - with your github account - Github will ask you to authorize the application:\n\n![](img/01.png)\n\nYou should then proceed to a dashboard. In the top left, select 'New Project'\n\n![](img/01x.png)\n\nSelect 'Hello Express' from the menu above.\n\n![](img/02x.png)\n\nPress the `Show` button and it will reveal a live version of of the app you have just created:\n\n![](img/03x.png)\n\nSelect show in a new window:\n\n![](img/04x.png)\n\nYou can interact with this repo by entering text in the Dreams box. Also, as this app is live in the cloud - and this is your own copy of the app - you can share this link with others. \n\nDo this now with someone also doing the lab - perhaps you can pair up with someone via the slack channel?\n\nVerify that you each see different lists depending on what has been entered. Enter some 'dreams' into you someone else's app.\n"
+    },
+  
+    {
+    "title": "# Project Structure and Editing",
+    "shortTitle": "02",
+    "contentMd" : "# Project Structure and Editing\n\nBack in the `source` view, look at the project structure in more detail. Click on the `Markdown` button on the top - this will switch to edit mode:\n\n![](img/05x.png)\n\nYou can edit this file now - it is documentation on your new app. Toggle the markdown button to switch back to preview mode.\n\nSelect each of the files in turn and have a look at the contents. The css and html content will be familiar, but js will require some javascript knowledge we have yet to develop.\n\nAny changes we make here will be directly published live to the cloud. For instance, open `index.html` and locate the following code:\n\n~~~html\n<main>\n  <p class=\"bold\">Oh hi,</p>\n  <p>Tell me your hopes and dreams:</p>\n  <form>\n    <input type=\"text\" maxlength=\"100\" placeholder=\"Dreams!\">\n    <button type=\"submit\">Submit</button>\n  </form>\n  <section class=\"dreams\">\n    <ul id=\"dreams\">\n    </ul>\n  </section>\n</main>\n~~~\n\nMake some changes to the text, eg:\n\n~~~html\n<p class=\"bold\">howdy</p>\n<p>Tell me your plans for the weekend:</p>\n~~~\n\nVerify that the changed text appears - both for you anyone you have shared this app with.\n\nLooking at `client.js`, locate and modify some of the initial bullet items:\n\n~~~JavaScript\n// our default array of dreams\nconst dreams = [\n  'Find and count some sheep',\n  'Climb a really tall mountain',\n  'Wash the dishes'\n];\n~~~\n\nBefore making changes to this data, turn on logging first by pressing the `Logs` button.\n\n![](img/06x.png)\n\nThis has reconfigured the view so we can see a new panel along the end of the browser.\n\nNow also make changes to `server.js`, you will see activity in this new panel.\n\n![](img/08x.png)\n\nIn particular, you will see errors as you type - but if you complete a modification successfully, then the errors will be replaced with a standard `app listening` message.\n\n![](img/09x.png)\n\nExperiment with making small changes in `server.js` now (it doesn't matter what you enter) and keep an eye on the logs. Also, notice that if the changes you make are not correct syntax, this should be highlighted in the editor."
+    },
+  
+    {
+    "title": "# Configuring the Project",
+    "shortTitle": "03",
+    "contentMd" : "# Configuring the Project\n\nThe project name can be changed by directly entering a new name on the sidebar:\n\n![](img/08.png)\n\nThis will also change the project url, so if you have shared the app you will have to re-share the new url.\n\nAnother useful option is to disable the 'Refresh App on Changes' option. Try this now. The behaviour of this feature can be a little confusing as the log may continue to report errors - but the live app itself will not be refreshed until you re enable the option.\n\nExplore the tools options:\n\n![](img/10.png)\n\nAnd also the git, import, export options:\n\n![](img/10x.png)\n\n\nExperiment with of all of these options.\n\nFor `Export to github`, the repository must already exist in your account. The project will, however, be on a different branch from master, so might not be visible at first unless you switch branches."
+    },
+  
+    {
+    "title": "# Run Offline",
+    "shortTitle": "04",
+    "contentMd" : "# Run Offline\n\nOn your workstation, install Node.js:\n\n- <https://nodejs.org> \n\nbe sure to select the `LTS` version, NOT the current version\n\nIn the `Advanced Options` in Glitch, select `Download Project`\n\n- Edit the file `server.js`, changing the following statements:\n\n~~~js\n// listen for requests :)\nvar listener = app.listen(process.env.PORT, function () {\n  console.log('Your app is listening on port ' + listener.address().port);\n});\n~~~\n\nto:\n\n~~~js\n// listen for requests :)\nconst listener = app.listen(process.env.PORT || 4000, function () {\n  console.log('Your app is listening on port ' + listener.address().port);\n});\n~~~\n\nFrom a command shell, inside the project folder you just unarchived, run the following commands:\n\n~~~bash\nnpm install\nnpm start\n~~~\n\nThe latter command should display:\n\n~~~\n> > hello-express@0.0.1 start /Users/edeleastar/Downloads/app\n> node server.js\n\nYour app is listening on port 4000\n~~~\n\nIf you open a browser now on <http://localhost:4000> your application should be running locally:\n\n![](img/13.png)\n"
+    },
+  
+    {
+    "title": "# Exercises",
+    "shortTitle": "Exercises",
+    "contentMd" : "# Exercises\n\n## Exercise 1: Semantic UI\n\nModify index.html to include the latest semantic ui libraries:\n\n### Step 1:\n\ninclude these extra elements in the `<head>` section of index:\n\n~~~html\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css\" type=\"text/css\">\n<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js\"></script>\n~~~\n\n### Step 2:\n\nExamine this view:\n\n![](img/11.png)\n\nTry to modify index.html to render as above using semantic ui `container`, `segment`, `header` and `form` classes.\n\n## Exercise 2:\n\nSee if you can incorporate an image into the page:\n\n![](img/12.png)\n\nThis will require you to:\n\n- locate and upload an image by dragging it to the `assets` folder.\n- click on the image to acquire the image `url`\n- insert an `<img>` tag with this url into index.\n\n## Exercise 3:\n\nIf you completed the above tasks, download the the app again and run it locally (see step 4).\n"
+    }
+  
+  ]
+  }
+
