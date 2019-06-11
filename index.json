@@ -4,7 +4,7 @@
   {
   
   
-    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ict-skills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600"},
+    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600"},
   
   "type" : "course",
   "title" : " ICT Skills 1 ",
@@ -45,7 +45,7 @@
    {
     
   
-    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ict-skills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600"},
+    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600"},
   
   "type" : "talk",
   "title" : "Module Overview ",
@@ -426,6 +426,198 @@
   "folder" : "panelvideo",
   "link" : "doTi4_51VR8",
   "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "3: Web Applications ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Build your first Glitch app, a simple static playlist web site.</p>",
+  "folder" : "topic-03-web-apps",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Play Gym Web App ",
+  "img" : "talk-1-gym-v1-solution/gym-web.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-1",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Assignment 2 Solution: PlayGymWeb ",
+  "img" : "gym-web.png",
+  "videoid" : "wGFbDk4DfCg",
+  "objectives" : "<p>A detailed walkthtough of the Solution to the PlayGymWeb assignment</p>",
+  "folder" : "talk-1-gym-v1-solution",
+  "link" : "gym-web.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "panelvideo",
+  "title" : "03a: Play Gym Web Solution ",
+  "img" : "",
+  "videoid" : "PDAcA5VMG1g",
+  "objectives" : "<p>03a: Play Gym Web Solution</p>",
+  "folder" : "panelvideo",
+  "link" : "PDAcA5VMG1g",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "github",
+  "title" : "PlayGymWeb Repo ",
+  "img" : "github.jpg",
+  "videoid" : "AZ-seW3gfaw",
+  "objectives" : "<p>A sample solution to the Web Development Assignment 2: PlayGymWeb</p>",
+  "folder" : "github-play-gym-web",
+  "link" : "https://github.com/wit-hdip-comp-sci-2019/play-gym-web",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Playlist 1 ",
+  "img" : "talk-3-web-app-intro/web-app-intro.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-2",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Web App Introduction ",
+  "img" : "web-app-intro.png",
+  "videoid" : "OS7IHd8W98U",
+  "objectives" : "<p>Structure of a web app: Front-end Vs Backend. Routers, Models, Views, Controllers</p>",
+  "folder" : "talk-3-web-app-intro",
+  "link" : "web-app-intro.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Front-end ",
+  "img" : "front-end.jpg",
+  "videoid" : "hh5kvZ9oUF0",
+  "objectives" : "<p>Views: Handlebars layouts, partials and templates</p>",
+  "folder" : "talk-4-front-end",
+  "link" : "front-end.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Modules ",
+  "img" : "modules.png",
+  "videoid" : "f7I5RMkaoGQ",
+  "objectives" : "<p>The backend will use a modular approach, relying on specific mechanism to import/export shared objects</p>",
+  "folder" : "talk-5-modules",
+  "link" : "modules.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Back-end ",
+  "img" : "back-end.png",
+  "videoid" : "Zz5fIVOKFC8",
+  "objectives" : "<p>Server, routes + controllers</p>",
+  "folder" : "talk-6-back-end",
+  "link" : "back-end.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-4 Playlist 1",
+  "img" : "img/main.jpg",
+  "videoid" : "LKZk7mqk6Jc",
+  "objectives" : "<p>Import and run a new starter project. Extend this project to include multiple &#39;views&#39;. Explore the handlebars templating library.</p>",
+  "folder" : "book-a-glitch-playlist-1",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "panelvideo",
+  "title" : "03b: Glitch Web Application Introduction ",
+  "img" : "",
+  "videoid" : "5GBwQ2GuFlo",
+  "objectives" : "<p>03b: Glitch Web Application Introduction</p>",
+  "folder" : "panelvideo",
+  "link" : "5GBwQ2GuFlo",
+  "los": [
+   ]
+
+    } 
    ]
 
     } 
