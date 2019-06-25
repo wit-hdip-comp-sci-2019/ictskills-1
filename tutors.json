@@ -13,7 +13,7 @@
   
   
   
-    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci-19.slack.com/messages/CJUG0NF1P","youtube":"https://www.youtube.com/playlist?list=PLEuhMaR29LyANChDUkk8gTtODbdjefq-l","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"}
+    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"}
   
 ,
   "type" : "course",
@@ -23,7 +23,7 @@
   
 
   "summary" : "javascript · node · express · git · github · glitch",
-  "id": "ict-skills-2019-1",
+  "id": "ict-skills-1",
   
     "route" : "#course/wit-hdip-comp-sci-2019.github.io/ictskills-1/"
   
@@ -75,7 +75,7 @@
       
   
   
-    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci-19.slack.com/messages/CJUG0NF1P","youtube":"https://www.youtube.com/playlist?list=PLEuhMaR29LyANChDUkk8gTtODbdjefq-l","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"}
+    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"}
   
 ,
   "type" : "talk",
@@ -944,6 +944,251 @@
 
       } 
      ]
+  
+
+    } 
+   ]
+
+  },
+ {
+  
+  
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "topic",
+  "title" : "4: Templates & Routes ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-a-templates/templates.png",
+  
+  
+
+  "summary" : "Explore templating in more detail. Enhanced the routing behaviour",
+  "id": "topic-04-app-templates+views",
+  
+    "route" : "#topic/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views"
+  
+,
+  "los": [
+   {
+    
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "unit",
+  "title" : "Vies, templating + JSON Models ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-a-templates/templates.png",
+  
+  
+
+  "summary" : "",
+  "id": "unit-0",
+  
+    "route" : "#topic/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0"
+  
+
+    
+  
+    ,"los" : [
+     {
+      
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "talk",
+  "title" : "Templates ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-a-templates/templates.png",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-a-templates/bGR2kfeS4PA",
+
+  
+
+  "summary" : "Templates enable dynamic composition of views from layouts, partials and expressions.",
+  "id": "talk-a-templates",
+  
+    "pdf" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-a-templates/templates.pdf",
+    "route" : "#talk/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-a-templates/templates.pdf"
+  
+
+      } ,
+     {
+      
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "talk",
+  "title" : "Json ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-b-templates+json/templates+json.png",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-b-templates+json/FkFNAwl_QCA",
+
+  
+
+  "summary" : "JSON is notation for representing javascript objects in a simple literal format.",
+  "id": "talk-b-templates+json",
+  
+    "pdf" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-b-templates+json/templates+json.pdf",
+    "route" : "#talk/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-0/talk-b-templates+json/templates+json.pdf"
+  
+
+      } 
+     ]
+  
+
+    } ,
+   {
+    
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "unit",
+  "title" : "Controller, Routes & Models ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-c-dashboard/dashboard.png",
+  
+  
+
+  "summary" : "Controller, Routes & Models",
+  "id": "unit-1",
+  
+    "route" : "#topic/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1"
+  
+
+    
+  
+    ,"los" : [
+     {
+      
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "talk",
+  "title" : "Dashboard ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-c-dashboard/dashboard.png",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-c-dashboard/Q5WPB0WcAOw",
+
+  
+
+  "summary" : "Review thee dashboard controller in detail.",
+  "id": "talk-c-dashboard",
+  
+    "pdf" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-c-dashboard/dashboard.pdf",
+    "route" : "#talk/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-c-dashboard/dashboard.pdf"
+  
+
+      } ,
+     {
+      
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "talk",
+  "title" : "Playlist ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-d-playlist/playlist.png",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-d-playlist/WQ3p7uQl_wU",
+
+  
+
+  "summary" : "Revise the Dashboard to render playlist without their contents. Use a new playlist view renders individual playlists",
+  "id": "talk-d-playlist",
+  
+    "pdf" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-d-playlist/playlist.pdf",
+    "route" : "#talk/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-d-playlist/playlist.pdf"
+  
+
+      } ,
+     {
+      
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "talk",
+  "title" : "MVC ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-e-mvc/mvc.png",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-e-mvc/msWsxn1sffM",
+
+  
+
+  "summary" : "Explore the MVC Pattern in action in Playlist 2",
+  "id": "talk-e-mvc",
+  
+    "pdf" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-e-mvc/mvc.pdf",
+    "route" : "#talk/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/talk-e-mvc/mvc.pdf"
+  
+
+      } ,
+     {
+      
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "lab",
+  "title" : "Lab-5 Playlist 2",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/book-a-playlist-2/img/main.png",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/book-a-playlist-2/T3JfDS05FG4",
+
+  
+
+  "summary" : "Refactor the dashboard controller to show summary on of the playlists + link to show playlist details.",
+  "id": "book-a-playlist-2",
+  
+    "route" : "#lab/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/unit-1/book-a-playlist-2"
+  
+
+      } 
+     ]
+  
+
+    } ,
+   {
+    
+  
+  
+    "properties" : {}
+  
+,
+  "type" : "panelvideo",
+  "title" : "04: Templates & Views ",
+  "img" : "https://wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/panelvideo/",
+  
+  
+    "video" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/panelvideo/doTi4_51VR8",
+
+  
+
+  "summary" : "04: Templates & Views",
+  "id": "panelvideo",
+  
+    "route" : "#video/wit-hdip-comp-sci-2019.github.io/ictskills-1/topic-04-app-templates+views/panelvideo/doTi4_51VR8"
+  
+
+    
   
 
     } 

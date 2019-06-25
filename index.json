@@ -4,14 +4,14 @@
   {
   
   
-    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci-19.slack.com/messages/CJUG0NF1P","youtube":"https://www.youtube.com/playlist?list=PLEuhMaR29LyANChDUkk8gTtODbdjefq-l","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"},
+    "properties" : {"highlightstyle":"railscasts","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"},
   
   "type" : "course",
   "title" : " ICT Skills 1 ",
   "img" : "",
   "videoid" : "",
   "objectives" : "<p>javascript · node · express · git · github · glitch</p>",
-  "folder" : "ict-skills-2019-1",
+  "folder" : "ict-skills-1",
   "link" : "index.html",
   "los": [
    ]
@@ -45,7 +45,7 @@
    {
     
   
-    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci-19.slack.com/messages/CJUG0NF1P","youtube":"https://www.youtube.com/playlist?list=PLEuhMaR29LyANChDUkk8gTtODbdjefq-l","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"},
+    "properties" : {"highlightstyle":"railscasts","panelicon":"newspaper","slack":"https://wit-hdip-comp-sci.slack.com/messages/C84S2LQSC/","parent":"https://wit-hdip-comp-sci-2019.github.io/","courseurl":"https://wit-hdip-comp-sci-2019.github.io/ictskills-1/","credits":"Eamonn de Leastar, WIT Computing","ects":"2½","faPanelicon":"fas fa-code-branch","faColour":"#ffd600","basecourseurl":"wit-hdip-comp-sci-2019.github.io/ictskills-1/"},
   
   "type" : "talk",
   "title" : "Module Overview ",
@@ -618,6 +618,166 @@
    ]
 
     } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "4: Templates & Routes ",
+  "img" : "unit-0/talk-a-templates/templates.png",
+  "videoid" : "",
+  "objectives" : "<p>Explore templating in more detail. Enhanced the routing behaviour</p>",
+  "folder" : "topic-04-app-templates+views",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Vies, templating + JSON Models ",
+  "img" : "talk-a-templates/templates.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-0",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Templates ",
+  "img" : "templates.png",
+  "videoid" : "bGR2kfeS4PA",
+  "objectives" : "<p>Templates enable dynamic composition of views from layouts, partials and expressions.</p>",
+  "folder" : "talk-a-templates",
+  "link" : "templates.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Json ",
+  "img" : "templates+json.png",
+  "videoid" : "FkFNAwl_QCA",
+  "objectives" : "<p>JSON is notation for representing javascript objects in a simple literal format.</p>",
+  "folder" : "talk-b-templates+json",
+  "link" : "templates+json.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Controller, Routes & Models ",
+  "img" : "talk-c-dashboard/dashboard.png",
+  "videoid" : "",
+  "objectives" : "<p>Controller, Routes &amp; Models</p>",
+  "folder" : "unit-1",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Dashboard ",
+  "img" : "dashboard.png",
+  "videoid" : "Q5WPB0WcAOw",
+  "objectives" : "<p>Review thee dashboard controller in detail.</p>",
+  "folder" : "talk-c-dashboard",
+  "link" : "dashboard.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Playlist ",
+  "img" : "playlist.png",
+  "videoid" : "WQ3p7uQl_wU",
+  "objectives" : "<p>Revise the Dashboard to render playlist without their contents. Use a new playlist view renders individual playlists</p>",
+  "folder" : "talk-d-playlist",
+  "link" : "playlist.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "MVC ",
+  "img" : "mvc.png",
+  "videoid" : "msWsxn1sffM",
+  "objectives" : "<p>Explore the MVC Pattern in action in Playlist 2</p>",
+  "folder" : "talk-e-mvc",
+  "link" : "mvc.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-5 Playlist 2",
+  "img" : "img/main.png",
+  "videoid" : "T3JfDS05FG4",
+  "objectives" : "<p>Refactor the dashboard controller to show summary on of the playlists + link to show playlist details.</p>",
+  "folder" : "book-a-playlist-2",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "panelvideo",
+  "title" : "04: Templates & Views ",
+  "img" : "",
+  "videoid" : "doTi4_51VR8",
+  "objectives" : "<p>04: Templates &amp; Views</p>",
+  "folder" : "panelvideo",
+  "link" : "doTi4_51VR8",
+  "los": [
    ]
 
     } 
